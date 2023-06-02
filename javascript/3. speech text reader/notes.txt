@@ -1,0 +1,8 @@
+1. modern looking design
+2. using local storage.
+3. search box
+4. Wishlist
+5. recent
+6. deploy on replit
+7. light and dark mode
+8. create new cards and add text automatically

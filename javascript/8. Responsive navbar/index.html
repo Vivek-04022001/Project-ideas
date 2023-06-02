@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Navbar</title>
+  </head>
+  <body>
+    <header>
+        <div class="header-left">
+
+            <div class="logo">
+              <img src="./logo.png" alt="logo" >
+            </div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#" class="active">Home</a>
+                </li>
+                <li>
+                  <a href="#">Products</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li>
+                  <a href="#" >About</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+              <div class="login-signup">
+                <a href="#">Login</a>
+            </div>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="login-signup">
+                <a href="#">Login</a>
+            </div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+      const nav = document.querySelector('nav');
+
+      hamburger.addEventListener('click', function(){
+        nav.classList.toggle('active');
+      })
+    </script>
+  </body>
+</html>

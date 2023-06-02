@@ -1,0 +1,29 @@
+
+##########################################
+####################CSS###################
+##########################################
+1. #Multiple Class / ID and Class Selectors
+
+Here is the “plain English” of #header .callout:
+meaning: Select all elements with the class name callout that are decendents of the element with an ID of header.
+
+Here is the “plain English” of #header.callout:
+meaning: Select the element which has an ID of header and also a class name of callout.
+
+
+2. #CSS :not Selectors
+Set a background color for all elements that are not a <p> element:
+syntax:
+:not(p) {
+  background: #ff0000;
+}
+
+3. perspective #CSS PROPERTY : to make 3d look for screen
+
+
+
+####################################################
+#################JAVASCRIPT#########################
+####################################################
+1. convert string to number -> +movieSelect.value;
+2. to get class name of any element ->e.target.className 
