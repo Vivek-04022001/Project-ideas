@@ -1,2 +1,15 @@
-1. Typing website.
-2. Face recognition app on react js.
+1.KitaabMahal : sells books online inside a university 
+	- create for one school only.
+	- add school level website which handles students.
+	- create login for students only not for teachers.
+	- no payment gateway, can ask only on phones 
+	- teachers recommendation
+
+2.TypingXcel : website in which students can pratice for 
+entrance exams.
+
+3.CareerConnect: Linkedin clone 
+
+4.MyPerfectResume: create pdf resumes
+
+5.RangManch : zoom clone
