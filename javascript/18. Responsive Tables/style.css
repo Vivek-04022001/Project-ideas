@@ -16,6 +16,8 @@ body {
 .wrapper {
   width: min(900px, 100%-3rem);
   margin-inline: auto;
+  padding-inline:3rem;
+  margin-bottom:100px;
 }
 h1 {
   text-align: center;
@@ -27,11 +29,82 @@ table {
 }
 
 table{
+    width:100%;
     background: #323232;
     border-collapse:collapse;
+}
+th,td,caption{
+    padding:1rem;
     
 }
-th,td{
-    padding:1rem;
+
+caption,
+th{
+    text-align:left;
 }
 
+caption{
+    background-color: hsl(0 0% 0%);
+    margin-bottom:1rem;
+
+    font-size: 1.5rem;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+th{
+    background-color: hsl(0 0% 0% / 0.5);
+}
+
+tr:nth-of-type(2n){
+    background-color: hsl(0 0% 0% / 0.25);
+
+}
+
+/* responsive method 1 */
+/* .table-container{
+    max-width:100%;
+    overflow:auto;
+} */
+
+@media (max-width: 650px){
+    th{
+        display:none;
+    }
+    td{
+        display:grid;
+        grid-template-columns: 15ch auto;
+        padding:0.5rem 1rem;
+        
+    }
+    td::before{
+        text-transform:capitalize;
+        font-weight:900;
+        color:darkGray;
+    }
+    td:first-child{
+        padding-top:2rem;
+    }
+    td:last-child{
+        padding-bottom:1rem;
+    }
+
+    td:nth-of-type(1)::before{
+        content:'name: ';
+    }
+    td:nth-of-type(2)::before{
+        content:'Poles: ';
+    }
+    td:nth-of-type(3)::before{
+        content:'Podiums: ';
+    }
+    td:nth-of-type(4)::before{
+        content:'Wins: ';
+    }
+    td:nth-of-type(5)::before{
+        content:'Career points: ';
+    }
+    td:nth-of-type(6)::before{
+        content:'Champions: ';
+    }
+}
