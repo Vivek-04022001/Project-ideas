@@ -1,12 +1,13 @@
-1.KitaabMahal : sells books online inside a university 
+1.KitaabMahal(2023) : sells books online inside a university 
 	- create for one school only.
 	- add school level website which handles students.
 	- create login for students only not for teachers.
 	- no payment gateway, can ask only on phones 
 	- teachers recommendation
 
-2.TypingXcel : website in which students can pratice for 
+2.TypingXcel(2023) : website in which students can pratice for 
 entrance exams.
+	~ create a copy of typing master 11
 
 3.CareerConnect: Linkedin clone 
 
