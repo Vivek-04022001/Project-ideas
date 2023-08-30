@@ -1029,18 +1029,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin:0;
   padding:0;
   box-sizing:border-box;
-  outline:1px solid red;
+  /* outline:1px solid red; */
 }
 
-@media(min-width: 1020px){
-  .bg-hero{
-    width:2000px;
-    height:300px;
-    left:30%;
+@media (min-width: 1020px){
+  .bg-hero {
+    width: 2000px;
+    height: 300px;
+    left: 30%;
     position: absolute;
     top: 13rem;
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
+  }
+
+  .bg-tabs{
+    width: 2000px;
+    height: 300px;
+    right: 60%;
+    position: absolute;
+    top: 15rem;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
     --tw-bg-opacity: 1;
     background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
   }
@@ -1266,3 +1278,4 @@ Ensure the default browser behavior of the `hidden` attribute.
     top: 0px;
   }
 }
+

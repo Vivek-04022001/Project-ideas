@@ -6,15 +6,21 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    outline:1px solid red;
+    /* outline:1px solid red; */
 }
 
-@media(min-width: 1020px){
-.bg-hero{
-    width:2000px;
-    height:300px;
-    left:30%;
-    
-    @apply absolute top-52 bg-softBlue rounded-l-full;
+@media screen(lg){
+    .bg-hero {
+        width: 2000px;
+        height: 300px;
+        left: 30%;
+        @apply absolute rounded-l-full top-52 bg-softBlue;
+      }
+      .bg-tabs{
+        width: 2000px;
+        height: 300px;
+        right: 60%;
+        @apply absolute rounded-r-full top-60 bg-softBlue;
+      }
 }
-}
+
