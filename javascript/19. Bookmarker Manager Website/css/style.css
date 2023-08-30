@@ -1034,6 +1034,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 @media(min-width: 1020px){
   .bg-hero{
+    width:2000px;
+    height:300px;
+    left:30%;
+    position: absolute;
+    top: 13rem;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
   }
 }
 
