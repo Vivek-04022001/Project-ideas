@@ -1029,7 +1029,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin:0;
   padding:0;
   box-sizing:border-box;
-  /* outline:1px solid red; */
+  outline:1px solid red;
+}
+
+@media(min-width: 1020px){
+  .bg-hero{
+  }
 }
 
 .hover\:border-2:hover {
